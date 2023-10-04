@@ -1,0 +1,89 @@
+  @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: 'Croissant One', cursive;
+    font-family: 'Poppins', sans-serif;*/
+}
+body{
+    background-color: aliceblue;
+    overflow-x: hidden;
+    height: 100vh;
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 30px;
+    color: rgb(30, 157, 157);
+    pointer-events: none;
+    font-family: 'Croissant One', cursive;
+    font-weight: 900;
+    margin-right: 250px;
+    margin-left: 10px;
+}
+.nav a{
+     text-decoration: none;
+     color: #359381;
+     padding: 5px 15px;
+     border-radius: 20px;
+     margin: 0 10px;
+     font-weight: 600;
+     font-size: 20px;
+     
+}
+.nav a:hover , .nav a.active{
+    background-color: #359381;
+    color: #fff;
+}
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#text{
+    position: absolute;
+    font-size: 65px;
+    color: #fff;
+    text-shadow: 4px 4px 4px black;
+    font-family: 'Croissant One', cursive
+}
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    
+    
+}
+.sec{
+    position: relative;
+    background-color: #003329;
+    padding: 100px;
+    margin-top: 100px;
+    
+}
+.sec h2{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.sec p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+
+}
